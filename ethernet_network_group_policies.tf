@@ -7,7 +7,7 @@
 variable "ethernet_network_group_policies" {
   default = {
     default = {
-      allowed_vlans = "1"
+      allowed_vlans = "1-100"
       description   = ""
       native_vlan   = null
       tags          = []
